@@ -1,0 +1,29 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#images {
+    display: block;
+    margin: 0 auto;
+    width: 700px;
+    height: 500px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+#changeButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #000000; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+#changeButton:hover {
+    background-color: #f72626; /* Darker green on hover */
+}
